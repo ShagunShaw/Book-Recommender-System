@@ -1,0 +1,13 @@
+my_env
+Book Recommender System.ipynb
+books_1.Best_Books_Ever.csv
+Change from pkl to npy.py
+similarity.pkl
+HTML_Templates/copy.html
+CSS_Templates/copy.css
+sim.npy
+
+# Once the project is deployed on render resend from 2 to 5 on github
+
+# While deploying it on render, disable the auto-deploy feature in it so that in which when we push these
+# files to github after we have deployed it on render, it will not get automatically deployedin our website
