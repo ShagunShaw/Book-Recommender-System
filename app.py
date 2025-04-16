@@ -8,7 +8,7 @@ app= Flask(__name__ , template_folder= "HTML_Templates", static_folder="CSS_Temp
            static_url_path='/CSS_Templates')
 app.config['SECRET_KEY']= '#645gfke@#234'
 
-os.system("python download_sim_file.py")
+# os.system("python download_sim_file.py")
 
 df= None
 similarity= None
