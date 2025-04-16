@@ -1,0 +1,87 @@
+body {
+  background-color: black; 
+  background-image: url('Image_cleanup.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; 
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('Image_cleanup.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.text-overlay {
+  color: rgb(245, 232, 208); 
+  font-size: 2.5rem;
+  line-height: 1.4;
+  text-shadow: 2px 2px 8px rgba(75, 58, 47, 0.7); 
+}
+
+.button {
+  background-color: rgb(73, 37, 4); 
+  color: rgb(235, 226, 215); 
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.button {
+  width: 350px;  
+  height: 77px;  
+}
+
+.button:hover {
+  background-color: rgb(4, 98, 136); 
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: 3px solid #444;
+  font-family: 'Georgia', serif;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer-content .connect {
+  margin-top: 1rem;
+}
+
+.footer-content .connect a {
+  color: #ffa500;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content .connect a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
