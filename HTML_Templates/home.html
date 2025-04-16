@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href= "{{url_for('static', filename= 'home.css')}}" rel= "stylesheet"
+            type= "text/css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="text-overlay">
+            <h1>Find your next<br>
+            <strong>Favorite Book!</strong></h1>
+        </div>
+        <button class="button"><a href="{{ url_for('recommend') }}">Get Recommendations</a></button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Shagun Shaw. All rights reserved.</p>
+            <div class="connect">
+                <p>Wanna connect with me?</p>
+                <a href="mailto:shagunshaw2006@gmail.com" target="_blank">📧 Email</a>
+                <a href="https://www.linkedin.com/in/shagun-shaw-b887492a4" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/ShagunShaw" target="_blank">💻 GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
