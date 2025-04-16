@@ -6,7 +6,7 @@ import os
 
 app= Flask(__name__ , template_folder= "HTML_Templates", static_folder="CSS_Templates",
            static_url_path='/CSS_Templates')
-app.config['SECRET_KEY']= '#645gfke@#234'
+app.config['SECRET_KEY']= os.environ.get("SECRET_KEY")
 
 # os.system("python download_sim_file.py")
 
